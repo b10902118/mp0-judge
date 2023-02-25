@@ -71,7 +71,7 @@ for path in paths:
     answer += "'{} {}',\n".format(path[0], path[0].count("a"))
 answer += f"'',\n'{di-1} directories, {fi} files',\n"
 
-# print(answer)
+print(answer)
 with open("grade-mp0.py", 'w') as f:
     f.write('''from gradelib import *
 r = Runner()
